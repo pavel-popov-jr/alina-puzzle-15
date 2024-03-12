@@ -22,7 +22,7 @@ body, html {
     cursor: pointer; /* Change cursor to indicate interactive elements */
 
     /* Max width to ensure the canvas is not larger than the screen, change 95vw to your preference */
-    max-width: 95vw;
+    max-width: min(90vw, 1280px);
     height: auto; /* Set height automatically based on the width to maintain aspect ratio */
     -webkit-tap-highlight-color: transparent;
 }

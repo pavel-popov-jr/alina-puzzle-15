@@ -15,7 +15,7 @@ let gameStarted = false;
 
 // Dynamically update canvas size based on the viewport width while maintaining aspect ratio
 function updateCanvasSize() {
-    const maxWidth = Math.min(window.innerWidth * 0.95, window.innerHeight * 0.95); // Adjust based on your layout preferences
+    const maxWidth = Math.min(window.innerWidth * 0.9, window.innerHeight * 0.9); // Adjust based on your layout preferences
     canvas.width = canvas.height = maxWidth; // Ensure the canvas is square
     tileSize = maxWidth / gridSize; // Recalculate tile size based on new canvas size
     drawTiles(); // Redraw the tiles to fit the new canvas size
