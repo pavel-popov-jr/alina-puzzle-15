@@ -6,7 +6,7 @@ const tileCount = gridSize * gridSize;
 const tiles = [];
 const initialEmptyIndex = tileCount - 1;
 const srcImageSize = 1280; // The size of the source image
-const photos = ['alina.png', 'alina-2.png', 'alina-3.png', 'alina-4.png', 'alina-5.png'];
+const photos = ['alina.png', 'alina-2.png', 'alina-3.png', 'alina-4.png', 'alina-5.png', 'alina-6.jpg', 'alina-7.jpg', 'alina-8.jpg'];
 let currentPhoto;
 let emptyIndex = initialEmptyIndex; // Assuming the empty tile is initially in the last position after shuffle
 let image = new Image();
