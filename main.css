@@ -1,0 +1,66 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: #000;
+}
+
+#game-container {
+    text-align: center;
+}
+
+/* Styles for the game canvas */
+#puzzle-canvas {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    background-color: #e5e5e5;
+    cursor: pointer; /* Change cursor to indicate interactive elements */
+
+    /* Max width to ensure the canvas is not larger than the screen, change 95vw to your preference */
+    max-width: 95vw;
+    height: auto; /* Set height automatically based on the width to maintain aspect ratio */
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Styles for the buttons */
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #ff95e7;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background-color: #fc82e0;
+}
+
+button:active {
+    background-color: #d97dc3;
+}
+
+#change-photo-button {
+    background-color: #778899;
+}
+
+#change-photo-button:hover {
+    background-color: #8598aa;
+}
+
+#change-photo-button:active {
+    background-color: #657483;
+}
+
+.game-controls {
+    margin-bottom: 40px;
+}
