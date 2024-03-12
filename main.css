@@ -27,6 +27,12 @@ body, html {
     -webkit-tap-highlight-color: transparent;
 }
 
+@media (min-width: 1000px) {
+    #puzzle-canvas {
+        margin-bottom: 15px;
+    }
+}
+
 /* Styles for the buttons */
 button {
     cursor: pointer;
@@ -62,5 +68,5 @@ button:active {
 }
 
 .game-controls {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
